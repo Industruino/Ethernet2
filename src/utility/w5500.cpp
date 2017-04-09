@@ -22,17 +22,17 @@
 W5500Class w5500;
 
 // SPI details
-SPISettings wiznet_SPI_settings(8000000, MSBFIRST, SPI_MODE0);
+SPISettings wiznet_SPI_settings(4000000, MSBFIRST, SPI_MODE0);
 uint8_t SPI_CS;
 
 void W5500Class::init(uint8_t ss_pin)
 {
   SPI_CS = ss_pin;
 
-  delay(1000);
+ // delay(1000);
   initSS();
   SPI.begin();
-  w5500.swReset();
+
   for (int i=0; i<MAX_SOCK_NUM; i++) {
     uint8_t cntl_byte = (0x0C + (i<<5));
     write( 0x1E, cntl_byte, 2); //0x1E - Sn_RXBUF_SIZE
