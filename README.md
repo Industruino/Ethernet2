@@ -1,3 +1,6 @@
+Industruino products documentation has moved [here](https://github.com/Industruino/documentation)
+
+
 Ethernet "2" Library for Arduino
 ================================
 
