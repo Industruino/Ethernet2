@@ -2,7 +2,8 @@ Industruino products documentation has moved [here](https://github.com/Industrui
 A simple example for Industruino D21G is available [here](https://github.com/Industruino/democode/blob/master/MACfromRTC/MACfromRTC.ino)
 
 
-### If you want to use any of the library examples, make sure to replace ```Serial``` with ```SerialUSB``` otherwise the code will get stuck.
+#### If you want to use any of these library examples, make sure to replace ```Serial``` with ```SerialUSB``` otherwise the code will get stuck.
+
 
 
 Ethernet "2" Library for Arduino
