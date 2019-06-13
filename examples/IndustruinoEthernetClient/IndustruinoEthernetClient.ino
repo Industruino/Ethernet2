@@ -34,7 +34,7 @@ byte mac[6];                                    // read from RTC
 EthernetClient client;
 
 ////////////////// USER CONFIGURATION /////////////////////////////
-#define USE_DHCP 0
+#define USE_DHCP 0                              // set to 1 for DHCP
 IPAddress industruino_ip (192, 168, 1, 100);    // example
 #define TCP_SERVER "www.arduino.cc"
 #define TCP_SERVER_PORT 80                     // for http
