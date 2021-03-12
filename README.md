@@ -1,4 +1,5 @@
 Industruino products documentation has moved [here](https://github.com/Industruino/documentation)  
+A plug&play example in this [blog post](https://industruino.com/blog/our-news-1/post/ethernet-easy-plug-play-38)     
 A simple example for Industruino D21G is available [here](https://github.com/Industruino/democode/blob/master/MACfromRTC/MACfromRTC.ino)
 
 
